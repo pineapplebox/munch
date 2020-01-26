@@ -1,0 +1,6 @@
+server.basics:
+       description: Default B2T2 perms
+       default: true
+       children:
+          bukkit.command.tps: true
+          topics.stats: true

@@ -1,0 +1,48 @@
+# This is the global configuration file for Akarin.
+# Some options may impact gameplay, so use with caution,
+# and make sure you know what each option does before configuring.
+# 
+# Akarin forums: https://akarin.io/ 
+
+config-version: 1
+bootstrap:
+  extra-local-address: []
+alternative:
+  legacy-versioning-compat: false
+  allow-spawner-modify: true
+  gc-before-stuck-restart: true
+  modified-server-brand-name: ''
+  disable-end-portal-create: false
+  version-update-interval: 3600s
+  force-difficulty-on-hardcore: true
+core:
+  players-per-chunk-io-thread: 50
+  always-silent-async-timing: false
+  tick-rate:
+    world-time-update-interval: 1s
+    keep-alive-packet-send-interval: 15s
+    players-info-update-interval: 30s
+  keep-alive-response-timeout: 30s
+  thread-safe:
+    async-catcher:
+      throw-on-caught: true
+  primary-thread-priority: 7
+  send-light-only-chunk-sections: true
+  chunk-save-threads: 2
+  parallel-mode: 1
+  enable-panda-redstone-wire: false
+  enable-real-time-ticking: true
+  optimize-chunk-unloading: false
+messages:
+  disconnect:
+    kick-player: Kicked from server.
+    ban-player-name: You are banned from this server! %s %s
+    ban-reason: "\nReason: "
+    ban-expires: "\nYour ban will be removed on "
+    ban-player-ip: Your IP address is banned from this server! %s %s
+    kick-player-duplicate-login: You logged in from another location
+    kick-player-timeout-keep-alive: Timed out
+    player-quit-server: §7%s left
+  connect:
+    player-join-server: §7%s joined
+    renamed-player-join-server: §7%s (formerly known as %s) joined
