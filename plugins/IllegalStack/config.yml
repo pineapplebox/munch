@@ -1,0 +1,96 @@
+ConfigVersion: '2.0'
+UserRequested:
+  Misc:
+    NotifyInsteadOfBlock: []
+  Mobs:
+    PreventZombieItemPickup: false
+  ItemRemoval:
+    ItemLoresToRemove: []
+    NameLoreStrictMatchMode: false
+    RemoveItemsMatchingName: false
+    ItemNamesToRemove: []
+  Obscure:
+    HackedShulker:
+      CheckGroundForBadShulkerAtLogin: false
+      DestroyInvalidShulkers: false
+    BlockBadItemsFromCreativeTab: false
+Exploits:
+  PortalDupe:
+    NotifyBlockedPortalAttempts: false
+    BlockNonPlayersInEndPortal: true
+    BlockNonPlayersInNetherPortal: false
+    EndWhiteList: []
+    EndWhiteListMode: true
+    NetherWhiteList: []
+    NetherWhiteListMode: true
+  Fishing:
+    KickForAutoClickerFishing: false
+  FishMod:
+    WarnPlayerThenKickInsteadOfNotify: false
+    WatchForAutoFishMod: false
+    MaxFishAllowedBeforeKick: 5
+    MaxFishToNotifyStaffThenBlock: 5
+  BookExploit:
+    DisableBookWriting: false
+    PageCountThreshold: 5
+    RemoveBooksNotMatchingCharset: true
+    BookAuthorWhitelist: []
+    ValidCharset: US-ASCII
+  Enchants:
+    EnchantedItemWhitelist: []
+    CustomEnchantOverride: []
+    OnlyFunctionInWorlds: []
+    RemoveCustomAttributes: false
+    AllowBypass: false
+    FixIllegalEnchants: false
+    RemoveUnbreakableFlag: false
+  MineCart:
+    RemoveExistingGlitchedMinecarts: false
+    MinecartBlockWhiteList: []
+    PreventMinecartGlitch: true
+  OverStack:
+    GroupStack: []
+    RemoveOverstackedItems: true
+    AllowStack:
+    - POTION
+    FixOverstackedItemInstead: false
+    PreventOverStackedItemInHoppers: true
+    RemoveItemsOfType: []
+    StackWhiteListMode: true
+  1_12_Exploits:
+    PreventItemFramePistonDupe: true
+    PreventRecipeDupe: true
+  DropperDupe:
+    BlockLoopedDroppers: false
+  RNGEnchant:
+    PreventRNGEnchant: true
+  3rdParty:
+    BlockCMIShulkerStacking: true
+  Other:
+    PreventBedrockDestruction: true
+    DisableChestsOnMobs: true
+    PreventInvalidElytraFlight: true
+    PreventInvalidPotions: true
+    PreventItemSwapLagExploit: true
+    PreventNestedShulkers: true
+    PreventHoppersToUnloadedChunks: true
+    PreventRailDupe: true
+  Nether:
+    ExcludeNetherWorldFromHeightCheck: []
+    NetherYLevel: 128
+    BlockPlayersAboveNether: true
+  SignExploit:
+    DestroyBadSignsOnChunkLoad: false
+  TNTDupe:
+    PreventIndirectTNTPowerDupe: true
+  Teleport:
+    PearlPhasing: true
+Misc:
+  DisableInWorlds: []
+  NotifyNearbyPlayers: false
+  InGameOffenseNotifications: true
+  LogOffensesInSeparateFile: true
+  BreakMachinesInsteadOfDroppingItems: true
+Exploit:
+  Teleport:
+    CorrectionNotify: false
